@@ -1,0 +1,73 @@
+/* App.css */
+
+/* ปรับแต่งหน้าแอปพลิเคชัน */
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* ปรับแต่งส่วนของฟอร์มลงทะเบียน */
+.form-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.register {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+/* ปรับแต่งสไตล์ของปุ่ม */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: #007bff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+  box-shadow: #007bff;
+}
+
+/* ปรับแต่งรูปแบบของช่องกรอกข้อมูล */
+.input-box {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+/* ปรับแต่งหัวข้อ */
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
